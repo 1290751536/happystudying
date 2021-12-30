@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="/res/js/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 <!--    <link rel="stylesheet" href="/res/css/bulma.min.css">-->
 </head>
@@ -22,9 +25,9 @@
                 <img src="/code-servlet.do" style="float: right;margin: 10px;" onclick="refresh(this)">
             </div>
             <div class="field">
-                <label class="checkbox">
+                <label class="checkbox" title="如果不是本人的机器不建议开启本功能">
                     <input type="checkbox" id="remember">
-                    下次自动登录
+                    10天内自动登录
                 </label>
             </div>
             <button class="btn" id="login">登录</button>
@@ -55,8 +58,6 @@
     </div>
 </div>
 </body>
-<script src="/res/js/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
 <script>
     function refresh(obj) {
         obj.src = "/code-servlet.do?id=" + Math.random();

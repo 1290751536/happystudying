@@ -63,23 +63,23 @@ layui.define(['layer', 'laytpl', 'form', 'element', 'upload', 'util'], function(
 
       options = options || {};
 
-      return $.ajax({
-        type: options.type || 'post',
-        dataType: options.dataType || 'json',
-        data: data,
-        url: url,
-        success: function(res){
-          if(res.status === 0) {
-            success && success(res);
-          } else {
-            layer.msg(res.msg || res.code, {shift: 6});
-            options.error && options.error();
-          }
-        }, error: function(e){
-          layer.msg('请求异常，请重试', {shift: 6});
-          options.error && options.error(e);
-        }
-      });
+      // return $.ajax({
+      //   type: options.type || 'post',
+      //   dataType: options.dataType || 'json',
+      //   data: data,
+      //   url: url,
+      //   success: function(res){
+      //     if(res.status === 0) {
+      //       success && success(res);
+      //     } else {
+      //       layer.msg(res.msg || res.code, {shift: 6});
+      //       options.error && options.error();
+      //     }
+      //   }, error: function(e){
+      //     layer.msg('请求异常，请重试', {shift: 6});
+      //     options.error && options.error(e);
+      //   }
+      // });
     }
 
     //计算字符长度
@@ -149,18 +149,18 @@ layui.define(['layer', 'laytpl', 'form', 'element', 'upload', 'util'], function(
               var image =  layero.find('input[name="image"]');
 
               //执行上传实例
-              upload.render({
-                elem: '#uploadImg'
-                ,url: '/api/upload/'
-                ,size: 200
-                ,done: function(res){
-                  if(res.status == 0){
-                    image.val(res.url);
-                  } else {
-                    layer.msg(res.msg, {icon: 5});
-                  }
-                }
-              });
+              // upload.render({
+              //   elem: '#uploadImg'
+              //   ,url: '/api/upload/'
+              //   ,size: 200
+              //   ,done: function(res){
+              //     if(res.status == 0){
+              //       image.val(res.url);
+              //     } else {
+              //       layer.msg(res.msg, {icon: 5});
+              //     }
+              //   }
+              // });
               
               form.on('submit(uploadImages)', function(data){
                 var field = data.field;
@@ -601,17 +601,17 @@ layui.define(['layer', 'laytpl', 'form', 'element', 'upload', 'util'], function(
     })
   });
   
-  //固定Bar
-  util.fixbar({
-    bar1: '&#xe642;'
-    ,bgcolor: '#009688'
-    ,click: function(type){
-      if(type === 'bar1'){
-        layer.msg('打开 index.js，开启发表新帖的路径');
-        //location.href = 'jie/add.html';
-      }
-    }
-  });
+  // //固定Bar
+  // util.fixbar({
+  //   bar1: '&#xe642;'
+  //   ,bgcolor: '#009688'
+  //   ,click: function(type){
+  //     if(type === 'bar1'){
+  //       layer.msg('打开 index.js，开启发表新帖的路径');
+  //       //location.href = 'jie/add.html';
+  //     }
+  //   }
+  // });
 
   exports('fly', fly);
 

@@ -20,7 +20,7 @@ public class IsLoginFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) resp;
         String uri = request.getRequestURI();
-        System.out.println(uri);
+//        System.out.println(uri);
         if (uri.endsWith("/login-register/index.html")) {
             chain.doFilter(req, resp);
         }

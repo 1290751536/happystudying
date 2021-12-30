@@ -5,8 +5,279 @@
       <artifact name="happtstudying:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ffd963e-aaa6-48bf-8971-ff60289a0061" name="Default Changelist" comment="" />
+    <list default="true" id="9ffd963e-aaa6-48bf-8971-ff60289a0061" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/dao/impl/ImplUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/dao/impl/ImplUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/domain/UserDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/domain/UserDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/filter/IsLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/filter/IsLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/service/impl/ImplUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/service/impl/ImplUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/front-desk-management/html/activity/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front-desk-management/html/activity/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/front-desk-management/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front-desk-management/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/mods/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/mods/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/mods/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front-desk-management/res/mods/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login-register/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login-register/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login-register/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login-register/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/happystudying/dao/impl/ImplUserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/edu/jxnu/happystudying/dao/impl/ImplUserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/happtstudying.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/TeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/impl/ImplStudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/impl/ImplTeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/dao/impl/ImplUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/domain/StudentDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/domain/TeacherDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/domain/UserDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/filter/IsLoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/impl/ImplStudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/impl/ImplTeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/service/impl/ImplUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/servlet/CodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/servlet/GetUserInfoServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/servlet/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/util/CodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/util/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jxnu/happystudying/util/Md5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/META-INF/happtstudying.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/TeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/impl/ImplStudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/impl/ImplTeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/dao/impl/ImplUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/domain/StudentDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/domain/TeacherDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/domain/UserDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/filter/IsLoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/impl/ImplStudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/impl/ImplTeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/service/impl/ImplUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/servlet/CodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/servlet/GetUserInfoServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/servlet/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/util/CodeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/util/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/classes/cn/edu/jxnu/happystudying/util/Md5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/c3p0-0.9.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/jackson-annotations-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/jackson-core-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/jackson-databind-2.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/mchange-commons-java-0.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-aop-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-beans-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-context-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-core-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-expression-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-jcl-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-jdbc-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/lib/spring-tx-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/activity/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/activity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/question/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/html/question/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/full.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/css/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/avatar/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/case.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/fly.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/other/1437100018023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/other/study-a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/images/weixin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/case.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/face.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/jie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/res/mods/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/front-desk-management/user/avatar/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/login-register/background_oeuhe7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/login-register/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/login-register/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/login-register/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/res/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/happtstudying/res/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-12-27T10-55-43_139-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-12-27T10-55-43_139-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.edu.jxnu.happystudying.dao.impl.ImplUserDaoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.edu.jxnu.happystudying.dao.impl.ImplUserDaoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/edu/jxnu/happystudying/dao/impl/ImplStudentDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/edu/jxnu/happystudying/dao/impl/ImplTeacherDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/edu/jxnu/happystudying/dao/impl/ImplUserDaoTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +292,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -29,6 +303,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="22odnzsDUWM1tPpycIoZkCiZmKq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +318,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/front-desk-management/user/avatar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/front-desk-management/user/avatar/tmp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,19 +334,22 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.edu.jxnu.happystudying.dao.impl" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.edu.jxnu.happystudying.dao" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp\front-desk-management\user\avatar\tmp" />
+      <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp\front-desk-management\html\user" />
       <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp\front-desk-management\user\avatar" />
       <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp\res\css" />
       <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp\res\js" />
-      <recent name="C:\Users\86131\Desktop\happtstudying\src\main\java\cn\edu\jxnu\happystudying\util" />
-      <recent name="C:\Users\86131\Desktop\happtstudying\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.53">
-    <configuration name="ImplStudentDaoTest.queryStudentByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplMessageDaoTest.deleteMessageById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="happtstudying" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +358,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.jxnu.happystudying.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplStudentDaoTest" />
-      <option name="METHOD_NAME" value="queryStudentByNo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplMessageDaoTest" />
+      <option name="METHOD_NAME" value="deleteMessageById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplTeacherDaoTest.queryTeacherByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplMessageDaoTest.deleteMessageByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="happtstudying" />
       <extension name="coverage">
         <pattern>
@@ -94,56 +374,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.jxnu.happystudying.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplTeacherDaoTest" />
-      <option name="METHOD_NAME" value="queryTeacherByNo" />
+      <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplMessageDaoTest" />
+      <option name="METHOD_NAME" value="deleteMessageByUserId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplUserDaoTest.queryUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplUserDaoTest.queryUserMessageById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="happtstudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.impl.*" />
+          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.jxnu.happystudying.dao.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplUserDaoTest" />
-      <option name="METHOD_NAME" value="queryUser" />
+      <option name="METHOD_NAME" value="queryUserMessageById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplUserDaoTest.updateTeacherByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplUserDaoTest.updateUserAddressByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="happtstudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.impl.*" />
+          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.jxnu.happystudying.dao.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplUserDaoTest" />
-      <option name="METHOD_NAME" value="updateTeacherByNo" />
+      <option name="METHOD_NAME" value="updateUserAddressByNo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplUserDaoTest.updateUserNameByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImplUserDaoTest.updateUserSignatureByNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="happtstudying" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.impl.*" />
+          <option name="PATTERN" value="cn.edu.jxnu.happystudying.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.edu.jxnu.happystudying.dao.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.edu.jxnu.happystudying.dao.impl.ImplUserDaoTest" />
-      <option name="METHOD_NAME" value="updateUserNameByNo" />
+      <option name="METHOD_NAME" value="updateUserSignatureByNo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,7 +431,7 @@
     </configuration>
     <configuration name="Tomcat 9.0.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.53" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="happtstudying:war exploded">
           <settings>
@@ -223,20 +503,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ImplUserDaoTest.updateUserAddressByNo" />
+      <item itemvalue="JUnit.ImplUserDaoTest.updateUserSignatureByNo" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.53" />
-      <item itemvalue="JUnit.ImplTeacherDaoTest.queryTeacherByNo" />
-      <item itemvalue="JUnit.ImplUserDaoTest.updateTeacherByNo" />
-      <item itemvalue="JUnit.ImplStudentDaoTest.queryStudentByNo" />
-      <item itemvalue="JUnit.ImplUserDaoTest.updateUserNameByNo" />
-      <item itemvalue="JUnit.ImplUserDaoTest.queryUser" />
+      <item itemvalue="JUnit.ImplUserDaoTest.queryUserMessageById" />
+      <item itemvalue="JUnit.ImplMessageDaoTest.deleteMessageById" />
+      <item itemvalue="JUnit.ImplMessageDaoTest.deleteMessageByUserId" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImplUserDaoTest.queryUser" />
-        <item itemvalue="JUnit.ImplUserDaoTest.updateUserNameByNo" />
-        <item itemvalue="JUnit.ImplStudentDaoTest.queryStudentByNo" />
-        <item itemvalue="JUnit.ImplUserDaoTest.updateTeacherByNo" />
-        <item itemvalue="JUnit.ImplTeacherDaoTest.queryTeacherByNo" />
+        <item itemvalue="JUnit.ImplMessageDaoTest.deleteMessageByUserId" />
+        <item itemvalue="JUnit.ImplMessageDaoTest.deleteMessageById" />
+        <item itemvalue="JUnit.ImplUserDaoTest.queryUserMessageById" />
+        <item itemvalue="JUnit.ImplUserDaoTest.updateUserSignatureByNo" />
+        <item itemvalue="JUnit.ImplUserDaoTest.updateUserAddressByNo" />
       </list>
     </recent_temporary>
   </component>
@@ -251,81 +531,157 @@
       <option name="presentableId" value="Default" />
       <updated>1640508044691</updated>
       <workItem from="1640508047985" duration="3853000" />
-      <workItem from="1640565833332" duration="28887000" />
+      <workItem from="1640565833332" duration="35537000" />
+      <workItem from="1640755453345" duration="5118000" />
+      <workItem from="1640761197707" duration="1438000" />
+      <workItem from="1640774632561" duration="17917000" />
+      <workItem from="1640844370497" duration="22799000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="626" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640566966615">
+    <state x="626" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1640776126574">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state x="626" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640566966615" />
-    <state x="1342" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1640683188445">
+    <state x="626" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640776126574" />
+    <state x="1342" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1640867524566">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state x="1342" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683188445" />
-    <state width="664" height="218" key="GridCell.Tab.0.bottom" timestamp="1640683747726">
+    <state x="1342" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640867524566" />
+    <state x="1312" y="422" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1640866832396">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.0.center" timestamp="1640683747726">
+    <state x="1312" y="422" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640866832396" />
+    <state x="1249" y="405" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1640785790522">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.0.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.0.left" timestamp="1640683747726">
+    <state x="1249" y="405" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640785790522" />
+    <state x="1317" y="310" key="FileChooserDialogImpl" timestamp="1640696976800">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.0.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.0.right" timestamp="1640683747726">
+    <state x="1317" y="310" key="FileChooserDialogImpl/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640696976800" />
+    <state width="664" height="334" key="GridCell.Tab.0.bottom" timestamp="1640868198082">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.0.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.1.bottom" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198082" />
+    <state width="664" height="334" key="GridCell.Tab.0.center" timestamp="1640868198081">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.1.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.1.center" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.0.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198081" />
+    <state width="664" height="334" key="GridCell.Tab.0.left" timestamp="1640868198081">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.1.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.1.left" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.0.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198081" />
+    <state width="664" height="334" key="GridCell.Tab.0.right" timestamp="1640868198082">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.1.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.1.right" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.0.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198082" />
+    <state width="664" height="334" key="GridCell.Tab.1.bottom" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.1.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.2.bottom" timestamp="1640683747727">
+    <state width="846" height="144" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.1.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.1.center" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.2.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747727" />
-    <state width="664" height="218" key="GridCell.Tab.2.center" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.1.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.1.left" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.2.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.2.left" timestamp="1640683747726">
+    <state width="846" height="144" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.1.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.1.right" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.2.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747726" />
-    <state width="664" height="218" key="GridCell.Tab.2.right" timestamp="1640683747727">
+    <state width="846" height="144" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.1.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.2.bottom" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state width="664" height="218" key="GridCell.Tab.2.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640683747727" />
-    <state x="949" y="179" key="SettingsEditor" timestamp="1640570408016">
+    <state width="846" height="144" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.2.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.2.center" timestamp="1640868198084">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state x="949" y="179" key="SettingsEditor/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640570408016" />
-    <state x="1277" y="374" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1640680126157">
+    <state width="846" height="144" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.2.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.2.left" timestamp="1640868198082">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
-    <state x="1277" y="374" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640680126157" />
+    <state width="846" height="144" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.2.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198082" />
+    <state width="664" height="334" key="GridCell.Tab.2.right" timestamp="1640868198084">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="846" height="144" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1640762646061" />
+    <state width="664" height="334" key="GridCell.Tab.2.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640868198084" />
+    <state width="664" height="334" key="GridCell.Tab.3.bottom" timestamp="1640848344165">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="664" height="334" key="GridCell.Tab.3.bottom/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640848344165" />
+    <state width="664" height="334" key="GridCell.Tab.3.center" timestamp="1640848344164">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="664" height="334" key="GridCell.Tab.3.center/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640848344164" />
+    <state width="664" height="334" key="GridCell.Tab.3.left" timestamp="1640848344164">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="664" height="334" key="GridCell.Tab.3.left/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640848344164" />
+    <state width="664" height="334" key="GridCell.Tab.3.right" timestamp="1640848344164">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="664" height="334" key="GridCell.Tab.3.right/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640848344164" />
+    <state x="949" y="179" key="SettingsEditor" timestamp="1640776121186">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="949" y="179" key="SettingsEditor/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640776121186" />
+    <state x="1277" y="374" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1640867165606">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="1277" y="374" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640867165606" />
     <state x="74" y="28" width="769" height="843" key="dock-window-1" timestamp="1640575698504">
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
     <state x="74" y="28" width="769" height="843" key="dock-window-1/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640575698504" />
+    <state x="1198" y="246" width="672" height="678" key="search.everywhere.popup" timestamp="1640785571812">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="1198" y="246" width="672" height="678" key="search.everywhere.popup/0.0.2048.1104/-1862.1440.1536.864@0.0.2048.1104" timestamp="1640785571812" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/edu/jxnu/happystudying/filter/IsLoginFilter.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="cookies" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

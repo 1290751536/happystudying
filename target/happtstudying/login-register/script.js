@@ -30,13 +30,26 @@ $(function () {
             type: 'POST',
             dataType: 'json',
             success: function (msg) {
+                console.log(msg);
+                // console.log($.cookie('uNo'))
+                // alert('success');
                 if (msg.success) {
-                    alert("登录成功");
+                    // alert("登录成功");
                     window.location.href = "/front-desk-management/html/index.html";
                 } else {
                     alert(msg.errMsg);
                     location.reload();
                 }
+            },
+            error: function (msg) {
+                console.log(msg)
+                // if (msg.success) {
+                //     // alert("登录成功");
+                //     window.location.href = "/front-desk-management/html/index.html";
+                // } else {
+                //     alert(msg.errMsg);
+                //     location.reload();
+                // }
             }
         })
     })
@@ -54,7 +67,6 @@ $(function () {
             url: url,
             data: data,
             type: 'POST',
-            dataType: 'json',
             success: function (msg) {
                 if (msg.success) {
                     alert("注册成功，正在前往登录界面");

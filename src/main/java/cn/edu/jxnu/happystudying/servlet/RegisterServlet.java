@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,11 +50,15 @@ public class RegisterServlet extends HttpServlet {
                 List<TeacherDomain> teachers = teacherService.queryTeacherByNo(uNo);
                 if (teachers.size() > 0) { // 更新用户名，默认为系统中存储的姓名
                     userService.updateUserNameByNo(uNo, teachers.get(0).gettName());
+                    userService.setSex(uNo, teachers.get(0).gettSex());
                 } else {
                     StudentService studentService = new ImplStudentService();
                     List<StudentDomain> students = studentService.queryStudentByNo(uNo);
                     userService.updateUserNameByNo(uNo, students.get(0).getsName());
+                    userService.setSex(uNo, students.get(0).getsSex());
                 }
+
+                userService.setRegisterTime(uNo, new Date());
 
                 map.put("success", true);
                 out.println(mapper.writeValueAsString(map));

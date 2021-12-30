@@ -1,7 +1,9 @@
 package cn.edu.jxnu.happystudying.dao;
 
 import cn.edu.jxnu.happystudying.domain.UserDomain;
+import cn.edu.jxnu.happystudying.domain.UserMessageDomain;
 
+import java.util.Date;
 import java.util.List;
 
 public interface UserDao {
@@ -19,4 +21,25 @@ public interface UserDao {
 
     // 更新用户名
     public void updateUserNameByNo(String uNo,String uName);
+
+    // 更新性别
+    public void updateUserSexByNo(String uNo,String uSex);
+
+    // 填入注册时间
+    public void updateUserRegisterTime(String uNo, Date uRegisterTime);
+
+    // 更新用户邮箱
+    public void updateUserEmailByNo(String uNo,String uEmail);
+
+    // 更新用户所在地区
+    public void updateUserAddressByNo(String uNo,String uAddress);
+
+    // 更新用户签名
+    public void updateUserSignatureByNo(String uNo,String uSignature);
+
+    // 更新用户头像
+    public void updateUserAvatar(String uNo,String uAvatar);
+
+    // 更新用户密码
+    public void updateUserPassword(String uNo,String uPassword);
 }

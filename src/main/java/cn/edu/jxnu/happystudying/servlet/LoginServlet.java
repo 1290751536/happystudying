@@ -13,14 +13,21 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @WebServlet(name = "LoginServlet", value = "/user/login.do")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("application/json;charset=utf-8");
+
+// 允许跨域访问的域名：若有端口需写全（协议+域名+端口），若没有端口末尾不用加'/'
+        response.setHeader("Access-Control-Allow-Origin", "http://www.domain1.com");
+
+// 允许前端带认证cookie：启用此项后，上面的域名不能为'*'，必须指定具体的域名，否则浏览器会提示
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+
+// 提示OPTIONS预检时，后端需要设置的两个常用自定义头
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type,X-Requested-With");
         PrintWriter out = response.getWriter();
         ObjectMapper mapper = new ObjectMapper();
         Map<String, Object> map = new HashMap<>();
@@ -45,20 +52,23 @@ public class LoginServlet extends HttpServlet {
             return;
         }
 
+//        System.out.println(request.getParameter("remember"));
+        // 由于跨域问题，自动登录暂时无法实现
+        if (request.getParameter("remember").equals("true")) {
+            Cookie cookieUserNo = new Cookie("uNo", uNo);
+            Cookie cookieUserPassword = new Cookie("uPassword", Md5Utils.digest(uPassword));
+            cookieUserNo.setMaxAge(60 * 60 * 24 * 10); // 10天免登录
+            cookieUserPassword.setMaxAge(60 * 60 * 24 * 10);
+            cookieUserNo.setPath("/");
+            cookieUserPassword.setPath("/");
+            response.addCookie(cookieUserNo);
+            response.addCookie(cookieUserPassword);
+        }
+
         HttpSession session = request.getSession();
         session.setAttribute("user", user.get(0));
         map.put("success", true);
         out.println(mapper.writeValueAsString(map));
-
-
-        if (request.getParameter("remember").equals("true")) {
-            Cookie cookieUserNo = new Cookie("uNo", uNo);
-            Cookie cookieUserPassword = new Cookie("uPassword", uPassword);
-            cookieUserNo.setMaxAge(60 * 60 * 24 * 10); // 10天免登录
-            cookieUserPassword.setMaxAge(60 * 60 * 24 * 10);
-            response.addCookie(cookieUserNo);
-            response.addCookie(cookieUserPassword);
-        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

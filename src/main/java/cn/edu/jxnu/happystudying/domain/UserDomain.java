@@ -1,5 +1,7 @@
 package cn.edu.jxnu.happystudying.domain;
 
+import java.util.Date;
+
 public class UserDomain {
     private String uId;
     private String uName;
@@ -10,20 +12,17 @@ public class UserDomain {
     private String uAvatar;
     private String isSubDivision;
     private String uDiamondNumber;
+    private String uAddress;
+    private Date uRegisterTime;
+    private String uSignature;
+    private String uSex;
 
-    @Override
-    public String toString() {
-        return "UserDomain{" +
-                "uId='" + uId + '\'' +
-                ", uName='" + uName + '\'' +
-                ", uEmail='" + uEmail + '\'' +
-                ", uPassword='" + uPassword + '\'' +
-                ", isPost='" + isPost + '\'' +
-                ", uNo='" + uNo + '\'' +
-                ", uAvatar='" + uAvatar + '\'' +
-                ", isSubDivision='" + isSubDivision + '\'' +
-                ", uDiamondNumber='" + uDiamondNumber + '\'' +
-                '}';
+    public String getuSex() {
+        return uSex;
+    }
+
+    public void setuSex(String uSex) {
+        this.uSex = uSex;
     }
 
     public String getuId() {
@@ -96,5 +95,49 @@ public class UserDomain {
 
     public void setuDiamondNumber(String uDiamondNumber) {
         this.uDiamondNumber = uDiamondNumber;
+    }
+
+    public String getuAddress() {
+        return uAddress;
+    }
+
+    public void setuAddress(String uAddress) {
+        this.uAddress = uAddress;
+    }
+
+    public Date getuRegisterTime() {
+        return uRegisterTime;
+    }
+
+    public void setuRegisterTime(Date uRegisterTime) {
+        this.uRegisterTime = uRegisterTime;
+    }
+
+    public String getuSignature() {
+        return uSignature;
+    }
+
+    public void setuSignature(String uSignature) {
+        this.uSignature = uSignature;
+    }
+
+
+    @Override
+    public String toString() {
+        return "UserDomain{" +
+                "uId='" + uId + '\'' +
+                ", uName='" + uName + '\'' +
+                ", uEmail='" + uEmail + '\'' +
+                ", uPassword='" + uPassword + '\'' +
+                ", isPost='" + isPost + '\'' +
+                ", uNo='" + uNo + '\'' +
+                ", uAvatar='" + uAvatar + '\'' +
+                ", isSubDivision='" + isSubDivision + '\'' +
+                ", uDiamondNumber='" + uDiamondNumber + '\'' +
+                ", uAddress='" + uAddress + '\'' +
+                ", uRegisterTime=" + uRegisterTime +
+                ", uSignature='" + uSignature + '\'' +
+                ", uSex='" + uSex + '\'' +
+                '}';
     }
 }

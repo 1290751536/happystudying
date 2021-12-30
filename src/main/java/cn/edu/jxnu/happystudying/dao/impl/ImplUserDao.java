@@ -2,10 +2,12 @@ package cn.edu.jxnu.happystudying.dao.impl;
 
 import cn.edu.jxnu.happystudying.dao.UserDao;
 import cn.edu.jxnu.happystudying.domain.UserDomain;
+import cn.edu.jxnu.happystudying.domain.UserMessageDomain;
 import cn.edu.jxnu.happystudying.util.JdbcUtils;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import java.util.Date;
 import java.util.List;
 
 public class ImplUserDao implements UserDao {
@@ -42,4 +44,47 @@ public class ImplUserDao implements UserDao {
         String sql = "UPDATE t_user SET u_name=? WHERE u_no=?";
         jdbcTemplate.update(sql, uName, uNo);
     }
+
+    @Override
+    public void updateUserSexByNo(String uNo, String uSex) {
+        String sql = "UPDATE t_user SET u_sex=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uSex, uNo);
+    }
+
+    @Override
+    public void updateUserRegisterTime(String uNo, Date uRegisterTime) {
+        String sql = "UPDATE t_user SET u_register_time=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uRegisterTime, uNo);
+    }
+
+    @Override
+    public void updateUserEmailByNo(String uNo, String uEmail) {
+        String sql = "UPDATE t_user SET u_email=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uEmail, uNo);
+    }
+
+    @Override
+    public void updateUserAddressByNo(String uNo, String uAddress) {
+        String sql = "UPDATE t_user SET u_address=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uAddress, uNo);
+    }
+
+    @Override
+    public void updateUserSignatureByNo(String uNo, String uSignature) {
+        String sql = "UPDATE t_user SET u_signature=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uSignature, uNo);
+    }
+
+    @Override
+    public void updateUserAvatar(String uNo, String uAvatar) {
+        String sql = "UPDATE t_user SET u_avatar=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uAvatar, uNo);
+    }
+
+    @Override
+    public void updateUserPassword(String uNo, String uPassword) {
+        String sql = "UPDATE t_user SET u_password=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uPassword, uNo);
+    }
+
 }
