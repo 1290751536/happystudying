@@ -15,17 +15,23 @@ public interface UserService {
 
     public void updateUserNameByNo(String uNo, String uName);
 
+    public void updateTeacherByNo(String uNo);
+
     public void setSex(String uNo, String uSex);
 
     public void setRegisterTime(String uNo, Date uRegisterTime);
 
-    public void updateUserEmailByNo(String uNo,String uEmail);
+    public void updateUserEmailByNo(String uNo, String uEmail);
 
-    public void updateUserAddressByNo(String uNo,String uAddress);
+    public void updateUserAddressByNo(String uNo, String uAddress);
 
-    public void updateUserSignatureByNo(String uNo,String uSignature);
+    public void updateUserSignatureByNo(String uNo, String uSignature);
 
-    public void updateUserAvatar(String uNo,String uAvatar);
+    public void updateUserAvatar(String uNo, String uAvatar);
 
-    public void updeUserPassword(String uNo,String uPassword);
+    public void updeUserPassword(String uNo, String uPassword);
+
+    public void updateUserDiamondNumber(String uNo, String uDiamondNumber);
+
+    public List<UserDomain> queryUserById(String uId);
 }

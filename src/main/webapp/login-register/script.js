@@ -62,6 +62,10 @@ $(function () {
         }
         data['uNo'] = $('#register-userid').val();
         data['uPassword'] = $('#register-password').val();
+        if (!checkPassword(data.uPassword)) {
+            alert("密码长度应该在6-16位之间，并且只能包含字母数字下划线");
+            return;
+        }
         var url = "/user/register.do";
         $.ajax({
             url: url,
@@ -78,3 +82,8 @@ $(function () {
         })
     })
 })
+
+function checkPassword(pw) {
+    var reg = /^\w{6,16}$/;
+    return reg.test(pw);
+}

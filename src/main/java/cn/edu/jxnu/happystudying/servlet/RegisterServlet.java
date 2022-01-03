@@ -51,6 +51,7 @@ public class RegisterServlet extends HttpServlet {
                 if (teachers.size() > 0) { // 更新用户名，默认为系统中存储的姓名
                     userService.updateUserNameByNo(uNo, teachers.get(0).gettName());
                     userService.setSex(uNo, teachers.get(0).gettSex());
+                    userService.updateTeacherByNo(uNo);
                 } else {
                     StudentService studentService = new ImplStudentService();
                     List<StudentDomain> students = studentService.queryStudentByNo(uNo);

@@ -1,6 +1,8 @@
 package cn.edu.jxnu.happystudying.servlet;
 
 import cn.edu.jxnu.happystudying.domain.UserDomain;
+import cn.edu.jxnu.happystudying.service.UserService;
+import cn.edu.jxnu.happystudying.service.impl.ImplUserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import javax.servlet.ServletException;
@@ -13,7 +15,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "GetUserInfoServlet",value = "/user/getinfo.do")
+@WebServlet(name = "GetUserInfoServlet", value = "/user/getinfo.do")
 public class GetUserInfoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);
@@ -25,7 +27,24 @@ public class GetUserInfoServlet extends HttpServlet {
         ObjectMapper mapper = new ObjectMapper();
         Map<String, Object> map = new HashMap<>();
 
-        UserDomain user = (UserDomain) request.getSession().getAttribute("user");
+        String uId = request.getParameter("uId");
+        UserDomain user = null;
+
+        if (uId == null || uId.equals("")) {
+            user = (UserDomain) request.getSession().getAttribute("user");
+        } else {
+            UserService userService = new ImplUserService();
+            try {
+                user = userService.queryUserById(uId).get(0);
+            } catch (Exception e) {
+                map.put("success", false);
+                map.put("errMsg", "该用户不存在请重新尝试");
+                return;
+            }
+
+        }
+
+
         map.put("success", true);
         map.put("user", user);
         out.println(mapper.writeValueAsString(map));

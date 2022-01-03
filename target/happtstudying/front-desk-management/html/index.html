@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../res/css/global.css">
     <script src="/res/js/jquery-3.6.0.min.js"></script>
     <script src="/res/js/global.js"></script>
+    <script src="/front-desk-management/res/js/index.js"></script>
 </head>
 <body>
 
@@ -52,9 +53,11 @@
                     <img src="/front-desk-management/user/avatar/default.jpg">
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="/front-desk-management/html/user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
+                    <dd><a href="/front-desk-management/html/user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a>
+                    </dd>
                     <!--                    <dd><a href="user/message.html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的消息</a></dd>-->
-                    <dd><a href="/front-desk-management/html/user/home.html"><i class="layui-icon" style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a>
+                    <dd><a href="/front-desk-management/html/user/home.html"><i class="layui-icon"
+                                                                                style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a>
                     </dd>
                     <hr style="margin: 5px 0;">
                     <dd><a href="#" style="text-align: center;" id="logout">退出</a></dd>
@@ -82,9 +85,9 @@
 <div class="fly-panel fly-column">
     <div class="layui-container">
         <ul class="layui-clear">
-            <li class="layui-hide-xs layui-this"><a href="/">首页</a></li>
-            <li><a href="#">活动</a></li>
-            <li><a href="#">问答</a></li>
+            <li class="layui-hide-xs layui-this"><a href="/front-desk-management/html/index.html">首页</a></li>
+            <li><a href="/front-desk-management/html/activity/index.html">活动</a></li>
+            <li><a href="/front-desk-management/html/question/index.html">问答</a></li>
             <!--<span class="layui-badge-dot"></span>通过这个实现后面出现小黄点图标-->
             <!--            <li><a href="#">讨论</a></li>-->
             <!--            <li><a href="#">建议</a></li>-->
@@ -116,7 +119,7 @@
                     <!--                    <a href="#signin" class="layui-hide-sm layui-show-xs-block fly-right" id="LAY_goSignin"-->
                     <!--                       style="color: #FF5722;">去签到</a>-->
                 </div>
-                <ul class="fly-list">
+                <ul class="fly-list" id="top">
                     <li>
                         <a href="user/home.html" class="fly-avatar">
                             <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
@@ -238,22 +241,22 @@
 
             <div class="fly-panel" style="margin-bottom: 0;">
 
-                <div class="fly-panel-title fly-filter">
-                    <a href="" class="layui-this">综合</a>
+                <div class="fly-panel-title fly-filter" id="lDiv">
+                    <a href="javascript:void(0);" class="layui-this btn1" value="1">综合</a>
                     <span class="fly-mid"></span>
-                    <a href="">进行中</a>
+                    <a href="javascript:void(0);" class="btn1" value="2">进行中</a>
                     <span class="fly-mid"></span>
-                    <a href="">已结束</a>
+                    <a href="javascript:void(0);" class="btn1" value="3">已结束</a>
                     <span class="fly-mid"></span>
-                    <a href="">精华</a>
-                    <span class="fly-filter-right layui-hide-xs">
-            <a href="" class="layui-this">按最新</a>
+                    <a href="javascript:void(0);" class="btn1" value="4">精华</a>
+                    <span class="fly-filter-right layui-hide-xs" id="rDiv">
+            <a href="javascript:void(0);" class="layui-this btn2" value="1">按最新</a>
             <span class="fly-mid"></span>
-            <a href="">按热议</a>
+            <a href="javascript:void(0);" class="btn2" value="2">按热议</a>
           </span>
                 </div>
 
-                <ul class="fly-list">
+                <ul class="fly-list" id="all">
                     <li>
                         <a href="user/home.html" class="fly-avatar">
                             <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
@@ -521,7 +524,7 @@
                 </ul>
                 <div style="text-align: center">
                     <div class="laypage-main">
-                        <a href="jie/index.html" class="laypage-next">查看更多</a>
+                        <a href="/front-desk-management/html/activity/index.html" class="laypage-next">查看更多</a>
                     </div>
                 </div>
 
@@ -557,12 +560,11 @@
                     <i class="fly-mid"></i>
                     <a href="javascript:;" class="fly-link" id="LAY_signinHelp">说明</a>
                     <i class="fly-mid"></i>
-                    <a href="javascript:;" class="fly-link" id="LAY_signinTop">活跃榜<span class="layui-badge-dot"></span></a>
-                    <span class="fly-signin-days">已连续签到<cite>16</cite>天</span>
+                    <span class="fly-signin-days">已连续签到<cite id="day">1</cite>天</span>
                 </div>
                 <div class="fly-panel-main fly-signin-main">
-                    <button class="layui-btn layui-btn-danger" id="LAY_signin">今日签到</button>
-                    <span>可获得<cite>5</cite>飞吻</span>
+                    <button class="layui-btn layui-btn-danger layui-btn-disabled" id="LAY_signin">今日签到</button>
+                    <span>可获得<cite id="diamond-number">5</cite>钻石</span>
 
                     <!-- 已签到状态 -->
                     <!--

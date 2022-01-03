@@ -38,22 +38,37 @@ public class UpdateUserInfoServlet extends HttpServlet {
         String uSex = request.getParameter("uSex");
 
         UserService userService = new ImplUserService();
-        if (!isEmpty(uEmail)) {
+        if (uEmail != null) {
             userService.updateUserEmailByNo(uNo, uEmail);
+            user.setuEmail(uEmail);
         }
         if (!isEmpty(uName)) {
             userService.updateUserNameByNo(uNo, uName);
+            user.setuName(uName);
+        } else {
+            failed("名称不能为空", map, out, mapper);
+            return;
         }
         if (!isEmpty(uAddress)) {
             userService.updateUserAddressByNo(uNo, uAddress);
+            user.setuAddress(uAddress);
+        } else {
+            failed("地区不能为空", map, out, mapper);
+            return;
         }
         if (!isEmpty(uSex)) {
             userService.setSex(uNo, uSex);
+            user.setuSex(uSex);
+        } else {
+            failed("性别不能为空", map, out, mapper);
+            return;
         }
-        if (!isEmpty(uSignature)) {
+        if (uSignature != null) {
             userService.updateUserSignatureByNo(uNo, uSignature);
+            user.setuSignature(uSignature);
         }
 
+        request.getSession().setAttribute("user", user);
         map.put("success", true);
         out.println(mapper.writeValueAsString(map));
     }

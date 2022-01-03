@@ -1,0 +1,8 @@
+cn\edu\jxnu\happystudying\dao\impl\ImplMessageDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplQuestionDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplUserDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplTeacherDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplActivityDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplCheckInDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplCollegeDaoTest.class
+cn\edu\jxnu\happystudying\dao\impl\ImplStudentDaoTest.class

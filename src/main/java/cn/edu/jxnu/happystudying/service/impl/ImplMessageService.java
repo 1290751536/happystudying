@@ -24,4 +24,9 @@ public class ImplMessageService implements MessageService {
     public void deleteMessageByUserId(String uId) {
         messageDao.deleteMessageByUserId(uId);
     }
+
+    @Override
+    public void insertMessage(UserMessageDomain userMessageDomain) {
+        messageDao.insertMessage(userMessageDomain);
+    }
 }

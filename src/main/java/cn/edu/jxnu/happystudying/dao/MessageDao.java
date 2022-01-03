@@ -13,4 +13,7 @@ public interface MessageDao {
 
     // 删除某个用户下的全部消息
     public void deleteMessageByUserId(String uId);
+
+    // 插入一条新消息
+    public void insertMessage(UserMessageDomain userMessageDomain);
 }

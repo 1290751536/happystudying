@@ -33,6 +33,11 @@ public class ImplUserService implements UserService {
     }
 
     @Override
+    public void updateTeacherByNo(String uNo) {
+        userDao.updateTeacherByNo(uNo);
+    }
+
+    @Override
     public void setSex(String uNo, String uSex) {
         userDao.updateUserSexByNo(uNo, uSex);
     }
@@ -65,5 +70,15 @@ public class ImplUserService implements UserService {
     @Override
     public void updeUserPassword(String uNo, String uPassword) {
         userDao.updateUserPassword(uNo, uPassword);
+    }
+
+    @Override
+    public void updateUserDiamondNumber(String uNo, String uDiamondNumber) {
+        userDao.updateUserDiamondNumber(uNo, uDiamondNumber);
+    }
+
+    @Override
+    public List<UserDomain> queryUserById(String uId) {
+        return userDao.queryUserById(uId);
     }
 }

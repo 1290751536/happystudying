@@ -87,4 +87,15 @@ public class ImplUserDao implements UserDao {
         jdbcTemplate.update(sql, uPassword, uNo);
     }
 
+    @Override
+    public void updateUserDiamondNumber(String uNo, String uDiamondNumber) {
+        String sql = "UPDATE t_user SET u_diamond_number=? WHERE u_no=?";
+        jdbcTemplate.update(sql, uDiamondNumber, uNo);
+    }
+
+    @Override
+    public List<UserDomain> queryUserById(String uId) {
+        String sql = "SELECT * FROM t_user WHERE u_id=?";
+        return jdbcTemplate.query(sql, new BeanPropertyRowMapper<UserDomain>(UserDomain.class), uId);
+    }
 }

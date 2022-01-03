@@ -36,7 +36,7 @@ public class UpdateUserAvatarServlet extends HttpServlet {
 
 
         String uploadPath = getServletContext().getRealPath("/front-desk-management/user/avatar");
-        String tmpPath = getServletContext().getRealPath("/front-desk-management/user/avatar/tmp");
+        String tmpPath = getServletContext().getRealPath("/front-desk-management/user/tmp");
         File tmpFile = new File(tmpPath);
 
         DiskFileItemFactory factory = getDiskFileItemFactory(tmpFile);

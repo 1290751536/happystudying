@@ -11,54 +11,61 @@
     <script type="text/javascript"
             src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
+    <script src="/res/js/jquery-3.6.0.min.js"></script>
+    <script src="/res/js/global.js"></script>
+    <script src="/front-desk-management/res/js/activity/detail.js"></script>
 </head>
 <body>
 
 <div class="fly-header layui-bg-black">
     <div class="layui-container">
-        <a class="fly-logo" href="/">
-            <img src="../../res/images/logo.png" alt="layui">
+        <a class="fly-logo" href="#">
+            <img src="/front-desk-management/res/images/logo.png" alt="layui">
         </a>
         <ul class="layui-nav fly-nav layui-hide-xs">
             <li class="layui-nav-item layui-this">
-                <a href="/"><i class="iconfont icon-jiaoliu"></i>交流</a>
+                <a href="/front-desk-management/html/index.html"><i class="iconfont icon-jiaoliu"></i>交流</a>
             </li>
             <li class="layui-nav-item">
-                <a href="case/case.html"><i class="iconfont icon-iconmingxinganli"></i>博客</a>
+                <a href="#"><i class="iconfont icon-iconmingxinganli"></i>博客</a>
             </li>
         </ul>
 
         <ul class="layui-nav fly-nav-user">
 
-            <!-- 未登入的状态 -->
-            <li class="layui-nav-item">
-                <a class="iconfont icon-touxiang layui-hide-xs" href="user/login.html"></a>
-            </li>
-            <li class="layui-nav-item">
-                <a href="user/login.html">登录</a>
-            </li>
-            <li class="layui-nav-item">
-                <a href="user/reg.html">注册</a>
-            </li>
+            <!--            &lt;!&ndash; 未登入的状态 &ndash;&gt;-->
+            <!--            <li class="layui-nav-item">-->
+            <!--                <a class="iconfont icon-touxiang layui-hide-xs" href="user/login.html"></a>-->
+            <!--            </li>-->
+            <!--            <li class="layui-nav-item">-->
+            <!--                <a href="user/login.html">登录</a>-->
+            <!--            </li>-->
+            <!--            <li class="layui-nav-item">-->
+            <!--                <a href="user/reg.html">注册</a>-->
+            <!--            </li>-->
 
             <!-- 登入后的状态 -->
-            <!--
             <li class="layui-nav-item">
-              <a class="fly-nav-avatar" href="javascript:;">
-                <cite class="layui-hide-xs">贤心</cite>
-                <i class="iconfont icon-renzheng layui-hide-xs" title="认证信息：layui 作者"></i>
-                <i class="layui-badge fly-badge-vip layui-hide-xs">VIP3</i>
-                <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg">
-              </a>
-              <dl class="layui-nav-child">
-                <dd><a href="user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
-                <dd><a href="user/message.html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的消息</a></dd>
-                <dd><a href="user/home.html"><i class="layui-icon" style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a></dd>
-                <hr style="margin: 5px 0;">
-                <dd><a href="/user/logout/" style="text-align: center;">退出</a></dd>
-              </dl>
+                <a class="fly-nav-avatar" href="javascript:;" id="userInfo">
+                    <cite class="layui-hide-xs">贤心</cite>
+
+                    <!--分管独享-->
+                    <i class="iconfont icon-renzheng layui-hide-xs" title="认证信息：layui 作者"></i>
+                    <i class="layui-badge fly-badge-vip layui-hide-xs">分管</i>
+
+                    <img src="/front-desk-management/user/avatar/default.jpg">
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="/front-desk-management/html/user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a>
+                    </dd>
+                    <!--                    <dd><a href="user/message.html"><i class="iconfont icon-tongzhi" style="top: 4px;"></i>我的消息</a></dd>-->
+                    <dd><a href="/front-desk-management/html/user/home.html"><i class="layui-icon"
+                                                                                style="margin-left: 2px; font-size: 22px;">&#xe68e;</i>我的主页</a>
+                    </dd>
+                    <hr style="margin: 5px 0;">
+                    <dd><a href="#" style="text-align: center;" id="logout">退出</a></dd>
+                </dl>
             </li>
-            -->
 
 
             <!--
@@ -81,9 +88,9 @@
 <div class="fly-panel fly-column">
     <div class="layui-container">
         <ul class="layui-clear">
-            <li class="layui-hide-xs"><a href="/">首页</a></li>
-            <li class="layui-hide-xs layui-this"><a href="#">活动</a></li>
-            <li><a href="#">问答</a></li>
+            <li class="layui-hide-xs"><a href="/front-desk-management/html/index.html">首页</a></li>
+            <li class="layui-this"><a href="/front-desk-management/html/activity/index.html">活动</a></li>
+            <li><a href="/front-desk-management/html/question/index.html">问答</a></li>
             <!--<span class="layui-badge-dot"></span>通过这个实现后面出现小黄点图标-->
             <!--            <li><a href="#">讨论</a></li>-->
             <!--            <li><a href="#">建议</a></li>-->
@@ -95,7 +102,8 @@
         <div class="fly-column-right layui-hide-xs">
             <!--五字 单纯为搜索图标占一个位置-->
             <span class="fly-search"><i class="layui-icon"></i></span>
-            <a href="jie/add.html" class="layui-btn" id="new-activity">发起活动</a>
+            <a href="/front-desk-management/html/add.html" target="_blank" class="layui-btn" id="new-activity">发起活动</a>
+
             <!--class layui-hide 隐藏-->
         </div>
         <!--        <div class="layui-hide-sm layui-show-xs-block"-->
@@ -109,32 +117,19 @@
     <div class="layui-row layui-col-space15">
         <div class="layui-col-md8 content detail">
             <div class="fly-panel detail-box">
-                <h1>Fly Template v3.0，基于 layui 的极简社区页面模版</h1>
-                <div class="fly-detail-info">
-                    <!-- <span class="layui-badge">审核中</span> -->
-                    <span class="layui-badge layui-bg-green fly-detail-column">动态</span>
+                <h1 id="title">Fly Template v3.0，基于 layui 的极简社区页面模版</h1>
+                <div class="fly-detail-info" id="head-icon">
 
-                    <span class="layui-badge" style="background-color: #999;">未结</span>
-                    <!-- <span class="layui-badge" style="background-color: #5FB878;">已结</span> -->
+                    <span class="layui-btn layui-btn-xs jie-admin" id="del">删除</span>
 
-                    <span class="layui-badge layui-bg-black">置顶</span>
-                    <span class="layui-badge layui-bg-red">精帖</span>
-
-                    <div class="fly-admin-box" data-id="123">
-                        <span class="layui-btn layui-btn-xs jie-admin" type="del">删除</span>
-
-                        <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="1">置顶</span>
-                        <!-- <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="0" style="background-color:#ccc;">取消置顶</span> -->
-
-                        <span class="layui-btn layui-btn-xs jie-admin" type="set" field="status" rank="1">加精</span>
-                        <!-- <span class="layui-btn layui-btn-xs jie-admin" type="set" field="status" rank="0" style="background-color:#ccc;">取消加精</span> -->
-                    </div>
+                    <span class="layui-btn layui-btn-xs jie-admin" id="set" field="stick" rank="1">置顶</span>
+                    <!-- <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="0" style="background-color:#ccc;">取消置顶</span> -->
                     <span class="fly-list-nums">
             <a href="#comment"><i class="iconfont" title="回答">&#xe60c;</i> 66</a>
             <i class="iconfont" title="人气">&#xe60b;</i> 99999
           </span>
                 </div>
-                <div class="detail-about">
+                <div class="detail-about" id="author">
                     <a class="fly-avatar" href="../user/home.html">
                         <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
                              alt="贤心">
@@ -142,27 +137,23 @@
                     <div class="fly-detail-user">
                         <a href="../user/home.html" class="fly-link">
                             <cite>贤心</cite>
-                            <i class="iconfont icon-renzheng" title="认证信息：{{ rows.user.approve }}"></i>
-                            <i class="layui-badge fly-badge-vip">VIP3</i>
                         </a>
                         <span>2017-11-30</span>
                     </div>
                     <div class="detail-hits" id="LAY_jieAdmin" data-id="123">
-                        <span style="padding-right: 10px; color: #FF7200">悬赏：60飞吻</span>
-                        <span class="layui-btn layui-btn-xs jie-admin" type="edit"><a href="add.html">编辑此贴</a></span>
+                        <span class="layui-btn layui-btn-xs jie-admin" type="edit"><a
+                                href="/front-desk-management/html/add.html?aId=">编辑此贴</a></span>
                     </div>
                 </div>
-                <div class="detail-body photos">
-                    $$ x+y=z $$
+                <div class="detail-body photos" id="content">
+
                     <p>
-                        文字+公式
-                        $$ x_2 \frac{x}{y}=z\\
-
-                        123
+                        为什么用堆优化的dijkstra算法的时间复杂度是$$
+                        O(n\log(n))
                         $$
-
-                    </p>
-                    <p><pre>x+y=z</pre>
+                    <pre>
+priority_queue&ltNode&gt pq;
+</pre>
                     </p>
                 </div>
 
@@ -171,7 +162,7 @@
                         <legend>回帖</legend>
                     </fieldset>
                 </div>
-                <ul class="fly-list">
+                <ul class="fly-list" id="response-blog">
                     <li>
                         <a href="user/home.html" class="fly-avatar">
                             <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"
@@ -382,7 +373,7 @@
                 <!--        </ul>-->
 
                 <div class="layui-form layui-form-pane">
-                    <form action="/jie/reply/" method="post">
+                    <div>
                         <div class="layui-form-item layui-form-text">
                             <a name="comment"></a>
                             <div class="layui-input-block">
@@ -392,10 +383,12 @@
                             </div>
                         </div>
                         <div class="layui-form-item">
-                            <input type="hidden" name="jid" value="123">
-                            <button class="layui-btn" lay-filter="*" lay-submit>提交回复</button>
+                            <input type="hidden" name="jid" id="blog-content">
+                            <button class="layui-btn" lay-filter="*" lay-submit onclick="return false;"
+                                    id="submit-blog">提交回复
+                            </button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>

@@ -28,4 +28,11 @@ public class ImplMessageDao implements MessageDao {
         String sql = "DELETE FROM t_user_message WHERE m_user_id=?";
         jdbcTemplate.update(sql, uId);
     }
+
+    @Override
+    public void insertMessage(UserMessageDomain userMessageDomain) {
+        String sql = "INSERT INTO t_user_message(m_user_id,m_reply_user_id,m_message_description,m_question_id,m_blog_id,m_response_time,m_reply_user_name,m_question_title,m_blog_title)\n" +
+                "VALUES(?,?,?,?,?,?,?,?,?)";
+        jdbcTemplate.update(sql, userMessageDomain.getmUserId(), userMessageDomain.getmReplyUserId(), userMessageDomain.getmMessageDescription(), userMessageDomain.getmQuestionId(), userMessageDomain.getmBlogId(), userMessageDomain.getmResponseTime(), userMessageDomain.getmReplyUserName(), userMessageDomain.getmQuestionTitle(), userMessageDomain.getmBlogTitle());
+    }
 }

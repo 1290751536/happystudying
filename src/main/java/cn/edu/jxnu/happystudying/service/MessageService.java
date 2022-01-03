@@ -10,4 +10,6 @@ public interface MessageService {
     public void deleteMessageById(String mId);
 
     public void deleteMessageByUserId(String uId);
+
+    public void insertMessage(UserMessageDomain userMessageDomain);
 }
